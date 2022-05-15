@@ -1,0 +1,556 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+
+<!DOCTYPE PinoyCuisine[
+
+	<!ELEMENT PinoyCuisine (home, menu)>
+	<!ELEMENT home (FilipinosFamousRecipes)>
+	<!ELEMENT FilipinosFamousRecipes (pork, chicken, beef, seafood)>
+	<!ELEMENT pork (recipe1, recipe2, recipe3, recipe4)>
+	<!ELEMENT chicken (recipe1, recipe2, recipe3, recipe4)>
+	<!ELEMENT beef (recipe1, recipe2, recipe3, recipe4)>
+	<!ELEMENT seafood (recipe1, recipe2, recipe3, recipe4)>
+
+	<!ELEMENT menu (Recipes-pork, recipes-chicken, Recipes-beef, Recipes-seafood)>
+	<!ELEMENT Recipes-pork (sisig, kare-kare, humba, crispy-pata)>
+	<!ELEMENT recipes-chicken (pinaupong-manok, chicken-curry, Pininyahang-manok, chicken-adobo)>
+	<!ELEMENT Recipes-beef (beef-asado, beef-tapa, sizzling-bulalo, beef-steak)>
+	<!ELEMENT Recipes-seafood (adobong-tahong, chili-crab, butter-shrimp, ginataang-suso)>
+
+	<!ELEMENT sisig (ingredients, procedure)>
+	<!ELEMENT kare-kare (ingredients, procedure)>
+	<!ELEMENT humba (ingredients, procedure)>
+	<!ELEMENT crispy-pata (ingredients, procedure)>
+	<!ELEMENT pinaupong-manok (ingredients, procedure)>
+	<!ELEMENT chicken-curry (ingredients, procedure)>
+	<!ELEMENT Pininyahang-manok (ingredients, procedure)>
+	<!ELEMENT chicken-adobo (ingredients, procedure)>
+	<!ELEMENT beef-asado (ingredients, procedure)>
+	<!ELEMENT beef-tapa (ingredients, procedure)>
+	<!ELEMENT sizzling-bulalo (ingredients, procedure)>
+	<!ELEMENT beef-steak (ingredients, procedure)>
+	<!ELEMENT adobong-tahong (ingredients, procedure)>
+	<!ELEMENT chili-crab (ingredients, procedure)>
+	<!ELEMENT butter-shrimp (ingredients, procedure)>
+	<!ELEMENT ginataang-suso (ingredients, procedure)>
+
+
+	<!ELEMENT home (#PCDATA)>
+	<!ELEMENT menu (#PCDATA)>
+	<!ELEMENT FilipinosFamousRecipes (#PCDATA)>
+	<!ELEMENT pork (#PCDATA)>
+	<!ELEMENT chicken (#PCDATA)>
+	<!ELEMENT beef (#PCDATA)>
+	<!ELEMENT seafood (#PCDATA)>
+	<!ELEMENT recipe1 (#PCDATA)>
+	<!ELEMENT recipe2 (#PCDATA)>
+	<!ELEMENT recipe3 (#PCDATA)>
+	<!ELEMENT recipe4 (#PCDATA)>
+	<!ELEMENT Recipes-pork (#PCDATA)>
+	<!ELEMENT recipes-chicken (#PCDATA)>
+	<!ELEMENT Recipes-beef (#PCDATA)>
+	<!ELEMENT Recipes-seafood (#PCDATA)>
+	<!ELEMENT sisig (#PCDATA)>
+	<!ELEMENT kare-kare (#PCDATA)>
+	<!ELEMENT humba (#PCDATA)>
+	<!ELEMENT crispy-pata (#PCDATA)>
+	<!ELEMENT pinaupong-manok (#PCDATA)>
+	<!ELEMENT chicken-curry (#PCDATA)>
+	<!ELEMENT Pininyahang-manok (#PCDATA)>
+	<!ELEMENT chicken-adobo (#PCDATA)>
+	<!ELEMENT beef-asado (#PCDATA)>
+	<!ELEMENT beef-tapa (#PCDATA)>
+	<!ELEMENT sizzling-bulalo (#PCDATA)>
+	<!ELEMENT beef-steak (#PCDATA)>
+	<!ELEMENT adobong-tahong (#PCDATA)>
+	<!ELEMENT chili-crab (#PCDATA)>
+	<!ELEMENT butter-shrimp (#PCDATA)>
+	<!ELEMENT ginataang-suso (#PCDATA)>
+	<!ELEMENT ingredients (#PCDATA)>
+	<!ELEMENT home (#PCDATA)>
+
+]>
+
+<PinoyCuisine>
+	<home>
+		<FilipinosFamousRecipes>
+			<pork>
+				<recipe1>Sisig</recipe1>
+				<recipe2>Kare-Kare</recipe2>
+				<recipe3>Humba</recipe3>
+				<recipe4>Crispy Pata</recipe4>
+			</pork>
+
+			<chicken>
+				<recipe1>Pinaupong Manok</recipe1>
+				<recipe2>Chicken Curry</recipe2>
+				<recipe3>Pininyahang Manok</recipe3>
+				<recipe4>Chicken Adobo</recipe4>
+			</chicken>
+
+			<beef>
+				<recipe1>Beef Asado</recipe1>
+				<recipe2>Beef Tapa</recipe2>
+				<recipe3>Sizzling Bulalo</recipe3>
+				<recipe4>Beef Steak</recipe4>
+			</beef>
+
+			<seafood>
+				<recipe1>Adobong Tahong</recipe1>
+				<recipe2>Chili Crab</recipe2>
+				<recipe3>Buttered Shrimp</recipe3>
+				<recipe4>Ginataang Suso</recipe4>
+			</seafood>
+		</FilipinosFamousRecipes>
+	</home>
+
+	<menu>
+		<Recipes-pork>
+			<sisig>
+				<ingredients>
+				<p>2 lbs pig ears</p> 
+				<p>1/4 lb pork belly</p>
+				<p>1 cup onion, minced</p>
+				<p>3 tbsp soy sauce</p>
+				<p>1 tsp ground black pepper</p>
+				<p>1 knob ginger, minced</p>
+				<p>3 tbsp chili</p>
+				<p>1 piece lemon (or 3 to 5 pieces calamansi)</p>
+				<p>1/2 cup butter (or margarine</p>
+				<p>1/4 lb chicken liver</p>
+				<p>34 ounce water</p>
+				<p>3 tbsp mayonnaise</p>
+				<p>1 tbsp salt</p>
+				</ingredients>
+
+				<procedure>
+				<p>Step 1: Pour the water in a pan and bring to a boil</p>	
+				<p>Step 2: Add salt and pepper</p>
+				<p>Step 3: Put-in the pig's ears and belly then simmer for 40 minutes to 1 hour (or until tender)</p>
+				<p>Step 4: Remove the boiled ingredients from the pot then drain excess water</p>
+				<p>Step 5: Grill the boiled pig ears and pork belly until doner</p>
+				<p>Step 6: Chop the pig ears and belly into fine pieces</p>
+				<p>Step 7: In a pan, melt the butter then add the onions. Cook until the onions are soft</p>
+				<p>Step 8: Put-in the ginger and cook for a few minutes</p>
+				<p>Step 9: Add the chicken liver and cook until well done</p>
+				<p>Step 10: Crush the chickenliver while being cooked in the pan</p>
+				<p>Step 11: Add the chopped pig ears and pork belly then cook for 10 minutes</p>
+				<p>Step 12: Put-in the soy sauce and chili then mix well</p>
+				<p>Step 13: Add pepper and salt to taste</p>
+				<p>Step 13: Add pepper and salt to taste</p>
+				</procedure>
+			</sisig>
+
+			<kare-kare>
+				<ingredients>
+				<p>1 kilo Ox tail</p> 
+				<p>1 banana heart (puso ng saging)</p>
+				<p>1 bunch of string beans</p>
+				<p>1 bunch petchay</p>
+				<p>2 pcs. eggplant (talong)</p>
+				<p>1 onion, cut into tiny cubes</p>
+				<p>5 cloves of garlic, crushed</p>
+				<p>Rice (about 1/2 to 1 cup - roasted until slightly golden brown)</p>
+				<p>Peanuts (1/2 to 1 cup - roasted, preferably without the skin)</p>
+				<p>Atsuwete seeds (1 tablespoon, soaked in lukewarm water)</p>
+				<p>Salt</p>
+				<p>Pepper</p>
+				<p>MSG (optional)</p>
+				<p>Bagoong alamang</p>
+				<p>1 kilo Pork, slice small</p>
+				<p>4 cloves of garlic</p>
+				<p>1 onion</p>
+				</ingredients>
+
+				<procedure>
+				<p>Step 1: Pour the water in a pan and bring to a boil</p>	
+				<p>Step 2: Add salt and pepper</p>
+				<p>Step 3: Put-in the pig's ears and belly then simmer for 40 minutes to 1 hour (or until tender)</p>
+				<p>Step 4: Remove the boiled ingredients from the pot then drain excess water</p>
+				<p>Step 5: Grill the boiled pig ears and pork belly until doner</p>
+				<p>Step 6: Chop the pig ears and belly into fine pieces</p>
+				<p>Step 7: In a pan, melt the butter then add the onions. Cook until the onions are soft</p>
+				<p>Step 8: Put-in the ginger and cook for a few minutes</p>
+				<p>Step 9: Add the chicken liver and cook until well done</p>
+				<p>Step 10: Crush the chickenliver while being cooked in the pan</p>
+				<p>Step 11: Add the chopped pig ears and pork belly then cook for 10 minutes</p>
+				<p>Step 12: Put-in the soy sauce and chili then mix well</p>
+				<p>Step 13: Add pepper and salt to taste</p>
+				<p>Step 13: Add pepper and salt to taste</p>
+				</procedure>
+			</kare-kare>
+			
+			<humba>
+				<ingredients>
+				<p>2 lbs pork belly</p> 
+				<p>1 cup pineapple juice</p>
+				<p>1 large onion, diced</p>
+				<p>5 cloves garlic, minced</p>
+				<p>2 tablespoons salted black beans</p>
+				<p>2 tablespoons soy sauce</p>
+				<p>2 tablespoons vinegar</p>
+				<p>2 1/2 tablespoons brown sugar</p>
+				<p>1/2 cup dried banana blossoms</p>
+				<p>2 pieces dried bay leaves</p>
+				<p>1 teaspoon whole peppercorn</p>
+				</ingredients>
+
+				<procedure>
+				<p>Step 1: Heat the cooking potthen brown the pork belly</p>	
+				<p>Step 2: Add the onions and garlic and cook until the onions are soft</p>
+				<p>Step 3: Put-in the soy sauce, peppercorn, bay leaves</p>
+				<p>Step 4: Pour-in the pineapple juice and let boil. Simmer until the pork is tender (add water as needed)</p>
+				<p>Step 5: Add the vinegar and wait for the mixture to re-boil. Simmer for 3 minutes.</p>
+				<p>Step 6: Spoon-in the salted black beans and brown sugar then simmer for 5 minutes</p>
+				<p>Step 7: Add the dried banana blossoms and simmer for 5 to 8 minutes.</p>
+				</procedure>
+			</humba>
+
+
+			<crispy-pata>
+				<ingredients>
+				<p>* 1 wholw pig's leg (pata; about 3 to 4 lbs), cleaned</p> 
+				<p>* 6 pieces dried bay leaves</p>
+				<p>* 2 tablespoons whole peppercorn</p>
+				<p>* 4 to 6 pieces star anise (optional)</p>
+				<p>* 6 tablespoons salt</p>
+				<p>* 2 teaspoons ground black pepper</p>
+				<p>* 2 to 3 teaspoons garlic powder</p>
+				<p>* 12 to 15 cups water</p>
+				<p>* 8 to 12 cups cooking oil</p>
+				</ingredients>
+
+				<procedure>
+				<p>Step 1: Pour water in a cooking pot then let boil</p>	
+				<p>Step 2: Put-in dried bay leaves, whole peppercorn, star anise, and 4 teaspoons of salt</p>
+				<p>Step 3: Add the whole pig's leg in the cooking pot then simmer until the leg becomes tender (about 45 to 60 minutes)</p>
+				<p>Step 4: Remove the tender leg from the cooking pot and set aside until the temperature goes down</p>
+				<p>Step 5: Rub the leg with garlic powder, ground black pepper, and remaining salt. Let stand for 15 minutes to absorb the rub</p>
+				<p>Step 6: Heat a clean large cooking pot (preferably with cover) and pour-n the cooking oil</p>
+				<p>Step 7: When the oil becomes hot, deep fry the rubbed pork leg. Continue cooking in medium heat until one side becomes crispy, and then cautiously flip the leg to crisp the other side. Note: Be extra careful in doing this procedure.</p>
+				<p>Step 8: Turn-off the heat; remove the crispy pork leg; and transfer it to a wide serving plate.</p>
+				</procedure>
+			</crispy-pata>
+		</Recipes-pork>
+
+		<recipes-chicken>
+			<pinaupong-manok>
+				<ingredients>
+				<p>* 1 whole chicken</p>
+				<p>* 2 whole onions, quartered</p>
+				<p>* 1 whole garlic, pounded with skin</p>
+				<p>* 1/2 thumb size ginger, minced</p>
+				<p>* 3 stalks lemon grass</p>
+				<p>* Fresly ground black pepper</p>
+				<p>* 3 cups rock salt</p>
+				<p>* Banana leaves</p>
+				<p>* 3 tbsp melted butter</p>
+				<p>* 3 tbsp chicken drippings (you get this when you rest the chicken, don't use the one from the bottom of the pot)</p>
+				<p>* 1 tsp ginger paste</p>
+				<p>* 3 cloves garlic, minced</p>
+				<p>* Banana leaves</p>
+				<p>* Salt</p>
+				</ingredients>
+
+				<procedure>
+				<p>Step 1: Generously rub chicken with salt, garlic and fresly ground black pepper inside the cavity and outside</p>
+				<p>Step 2: Stuff the cavity with onions, lemon grass, garlic and ginger</p>
+				<p>Step 3: Place 3 cups of rock salt in the bottom of an earthenware pot then line the top with banana leaves. Place chicken in a sitting position then place in an open flame over stove or fire burner, make sure the rest of the chicken would not touch the sides of the pot. Cook for 2 to 2 1/2 hours or until chicken is tender</p>
+				<p>Step 4: Once cooked, place chicken in a wire rock to cool, let the juice run in a container</p>
+				<p>Step 5: Place all sauce ingredients together in a sauce pan and simmer in low heat for 5 minutes</p>
+				<p>Step 6: Place chicken in a serving plate then serve with dipping sauce.</p>
+				</procedure>
+			</pinaupong-manok>
+
+
+			<chicken-curry>
+				<ingredients>
+				<p>* 1 kl Chicken</p>
+				<p>* 2 medium size potato, chopped</p>
+				<p>* 1 big carrot, sliced</p>
+				<p>* 1 tbsp garlic, minced</p>
+				<p>* 3 stalks ciliry, cut into 2 inches lengths</p>
+				<p>* 1 mideum onion, chopped</p>
+				<p>* 1 small red bell pepper, cut into cubet</p>
+				<p>* 2 tbsp fish sauce</p>
+				<p>* 1 cup coconut milk</p>
+				<p>* 2 tbsp curry powder</p>
+				<p>* 1 thumb ginger, cut stripes</p>
+				<p>* 1 cup water</p>
+				</ingredients>
+
+				<procedure>
+				<p>Step 1: Cut the chichen into pieces. Leave the chicken bone in. If you prepare bone chicken meat,then de-bone the chicken</p>
+				<p>Step 2: Heat up the a deep pot and add the oil</p>
+				<p>Step 3: Fried the potato and carrot for 2 mins and set asider</p>
+				<p>Step 4: Saute chicken together with garlic, onion and ginger</p>
+				<p>Step 5: When garlic is lighjt brown in color add fish sause and curry power</p>
+				<p>Step 6: Stire well then add water then cover the pot and lower the heat to mideum and simmer until the chicken is tender</p>
+				<p>Step 7: Once the chicken is cooked, add the red bell pepper, ciliry, carrot and potato then simmer for 5 minutes.</p>
+				<p>Step 8: Add the coconut milk and mix well.Simmer for another 5 minutes</p>
+				<p>Step 9: Serve hot with rice.</p>
+				</procedure>
+			</chicken-curry>
+
+
+			<Pininyahang-manok>
+				<ingredients>
+				<p>* 1 whole Chicken</p>
+				<p>* 1 whole onion, chopped</p>
+				<p>* 1 whole garlic, minced/p></p>
+				<p>* 2 tbsp olive oil</p>
+				<p>* 2 medium size potatoes, peeled and quartered(can be smaller)</p>
+				<p>* 2 medium size carrot, peeled cut into one size</p>
+				<p>* 1 red bell pepper, cut into approx 1 square inch</p>
+				<p>* 2 tbsp fish sauce or patis</p>
+				<p>* Dash of pepper</p>
+				<p>* 2 tbsp tickles</p>
+				<p>* 1 can (500g) pineapple chuncks in syrup</p>
+				<p>* 3/4 cup evaporated milk(or fresh milk, but better result with evap)</p>
+				<p>* 1/2 cup grated cheese</p>					
+				</ingredients>
+
+				<procedure>
+				<p>Step 1: Chop the chicken into samll pieces</p>
+				<p>Step 2: Heat a medium dutch oven (or any pan you prapare). When its hot, put olive oil and heat it up, saute garlic until golden brown, add the onion until it become transparent</p>
+				<p>Step 3: Add the chicken and saute for about a minutes, then add patis(add depending on your taste). Mix then add pepper and pickles. Simmer then cover. Juices will start to come out</p>
+				<p>Step 4: Wait until chicken is half cooked then add the pineapple chunks including the syrup.</p>
+				<p>Step 5:When the chicken is cooked, add carrots and potatoes.Simmer until the vegetables are cooked</p>
+				<p>Step 6: Add bell pepper, then stir and bring back to boil.</p>
+				<p>Step 7: Add the milk then cheese until melted.</p>
+				</procedure>				
+			</Pininyahang-manok>
+
+
+			<chicken-adobo>
+				<ingredients>
+				<p>* 1/2 kilo chicken leg(drumstick choice cuts)</p>
+				<p>* 3 pcs dried bay leaves</p>
+				<p>* 4tbsp soy sauce</p>
+				<p>* 4 tbsp vinegar</p>
+				<p>* 3 cloves garlic, minced</p>
+				<P>* 1 medium sized onion, sliced</P>
+				<p>* 1 pc Red Chili (Siling Haba) seeded thinly sliced</p>
+				<p>* 1/3 cup water</p>
+				<p>* 3 tbsp Canola cooking oil</p>
+				<P>* 1 tsp peppercorns</P>
+				<p>* salt and pepper</p>
+				<p>* Green Onion or Scallions(Dahon sibuyas) for garnish(optional)</p>
+				</ingredients>
+
+				<procedure>
+				<p>Step 1: In a large wok, add canola oil then saute onion, garlic, ginger, and chicken for 8 to 10 minutes</p>
+				<p>Step 2: Add pepper, peppercorns, bayleaf and Siling haba(red chili) then saute for another 2 minutes</p>
+				<p>Step 3: Now add the vinegar, water, and soy sauce then bring to the boil.</p>
+				<p>Step 4: Simmer for 5 minutes, add salt to taste.</p>
+				<p>Step 5:Garnish with green onions then Serve hot with rice.</p>
+				</procedure>
+			</chicken-adobo>
+		</recipes-chicken>
+
+
+		<Recipes-beef>
+			<beef-asado>
+				<ingredients>
+				<p>* 1/2 kilo beef chucks, cut into large cube</p>
+				<p>* 1/2 cup soy sauce</p>
+				<p>* 1tbsp hoisin sauce</p>
+				<p>* 1/2 head garlic, chopped</p>
+				<p>* 1 thumb size ginger, cut into slivers</p>
+				<p>* 1 small bundle spring opion, chopped</p>
+				<p>* 1 small size red bell pepper, cut into strips</p>
+				<p>* 1-2 pievces star anise</p>
+				<p>* 1/2 tsp peppercorn</p>
+				<p>* 1/4 cup cornstarch</p>
+				<p>* salt</p>
+				
+				</ingredients>
+				<procedure>
+				<p>Step 1: In a sauce pan put beef, pour water to cover, bring to a boil and simmmer for a minutes.</p>
+				<p>Step 2: Now drain first boiled water and rinse off all scum.Return beef in the sauce pan por fresh water to cover, add in garlic, ginger, onion, star anise and soy sauce.</p>
+				<p>Step 3: Bring to a boil and simmer at low to medium heat for45 to 60 minutes, add more water as necessary.</p>
+				<p>Step 4: Add sugar and hoisin sause, simmer for another 10 to minutes or until the meat are tender and almost disintegrate and the liquid has reduced to about half.</p>
+				<p>Step 5:Thicken sauce with cornstarch diluted in 1/4 cup water. Correct saltines if required. Add in the spring onion and bell pepper, cook for another half minute. Serve hot with a lot of rice.</p>
+				
+				</procedure>
+			</beef-asado>
+
+			<beef-tapa>
+				<ingredients>
+				<p>* 1/2 kilo beef sirloin, thinly sliced</p>
+				<p>* 2 tbsp sugar</p>
+				<p>* 1 tsp ground black pepper</p>
+				<p>* 1 cup soy sauce</p>
+				<p>* 3 tbsp minced garlic</p>
+				<p>* 1 tsp salt</p>
+				<p>* 1 Clear platic bag (we recommend Ziploc)</p>
+				</ingredients>
+				<procedure>
+				<p>To Marinate</p>
+				<p>Step 1: Combine in a container the following ingridients; soy sauce, garlic, salt, pepper, and sugar and mix well then set aside.</p>
+				<p>Step 2: After mixing all the ingridients place the beef in the clear plastic bag or Zoploc.</p>
+				<p>Step 3: Pour the mixed seasonings in the Ziploc with meat and mix well.</p>
+				<p>Step 4: Refrigerate the marinade for a minimum of 12 hours.</p>
+				<p>How to cook beef tapa</p>
+				<p>Step 1: In a pan, place 2 cups of of water and bring to a boil .</p>
+				<p>Step 2: Add the marinated beef tapa and cook until the water evaporates.</p>
+				<P>Step 3: When all the water evaporated add 3 tbsp of cooking oil in the pan then fry the tapa until done.</P>
+				<P>Step 4: Serve with rice topped with fried egg and sliced tomatoes.</P>
+				</procedure>
+			</beef-tapa>
+
+			<sizzling-bulalo>
+				<ingredients>
+				<p>* 1 1/2 lbs beef shank</p>
+				<p>* 1 piece cooked sweet corn, cooked</p>
+				<p>* 10 onces condensed cream of mushroom soup</p>
+				<p>* 2 teaspoons garlic powder</p>
+				<p>* 1 1/2 cups fresh white mushrooms, sliced</p>
+				<p>* 4 tablespoons butter</p>
+				<p>* 2 tablespoons salt</p>
+				<p>* 1 teaspoon ground black pepper</p>
+				<p>* 3 3/4 cup of water</p>
+
+				</ingredients>
+				<procedure>
+				<p>Step 1: Make the mushroom gravy</p>
+				<p>Step 1.1: Heat a cooking pot or sauce pan then add the 1 tablespoon butter and melt</p>
+				<p>Step 1.2: Put-in the mushroom and saute for 3 minutes</p>
+				<p>Step 1.3: Add the condensed cream of mushroom soup then stir</p>
+				<p>Step 1.4: Pour 3/4 cup water; add 1/2 teaspoon salt and 1/2 teaspoon groundblack pepper then stir. Simmer for 5 minutes or until the sauce thickens</p>
+				<p>Step 1.5: Set aside</p>
+				<p>Step 3: Pour 3 cups of water and apply heat. Let boil and simmer until the beef is tender. Remove from the cooking pot and place in a clean plate. Note: Add water as needed.</p>
+				<p>Step 4: Season both side of beef with 1/2 teaspoon salt, 1/2 teaspoon ground black pepper, and garlic powder. Set aside.</p>
+				<p>Step 5: Heat a pan then add 2 tablespoons butter. Let the butter melt</p>
+				<p>Step 6: Pan-fry both sides of the beef for at least 2 minutes per side.</p>
+				<p>Step 7: Heat the sizzling plate (metal plate) then put-i 1 tablespoon butter and let melt it.</p>
+				<p>Step 8: Arrange the pan fried beef on the sizzling plate, top with mushroom gravy and place the corn on the side.</p>
+
+				</procedure>
+			</sizzling-bulalo>
+
+			<beef-steak>
+				<ingredients>
+				<p>* 1 lb beef sirlion, thinly sliced</p>
+				<p>* 1/4 cup soy sauce</p>
+				<p>* 1 piece lemon or 3 pieces calamansi</p>
+				<p>* 1/2 tsp ground black pepper</p>
+				<p>* 3 cloves garlic, crushed</p>
+				<p>* 1 large onion, sliced into rings</p>
+				<p>* 3 tbsp cooking oil</p>
+				<p>* salt to taste</p>
+				</ingredients>
+
+				<procedure>
+				<p>Step 1: Marinade beef in soy sauce, lemon (or calamansi), and ground black pepper for at least 1 hour</p>
+				<p>Step 2: Heat the cooking oil in a pan then stir fry the onion rings until the texture becomes soft. Set aside</p>
+				<p>Step 3: In the same pan where the onions were fried, fry the marinated beef(without the marinade) until the color turns brown. Set aside</p>
+				<p>Step 4: Put-in the garlic then saute for a few minutes</p>
+				<p>Step 5: Pour the marinade and bring to a boil</p>
+				<p>Step 6: Put in the fried beef and simmer for 15 to 20 minutes or until meat is tender. Add water as need</p>
+				<p>Step 7: Add the stir-fried onions and same salt to taste</p>
+				<p>Step 8: Serve hot.</p>
+				</procedure>
+			</beef-steak>
+		</Recipes-beef>
+
+
+		<Recipes-seafood>
+			<adobong-tahong>
+				<ingredients>
+				<p>* 4 liter cans green mussels</p>
+				<p>* 1/2 head garlic crushed</p>
+				<p>* 2-3 silvers ginger</p>
+				<p>* 1-2 red chili, sliced</p>
+				<p>* 1/4 cup vinegar</p>
+				<p>* 1/4 cup cooking oil</p>
+				<p>* 2-3 tbsp soy sauce</p>
+				<p>* 2-3 pcs bay leaf</p>
+				<p>* 1 tsp. peppercorn</p>
+				<p>* 1 medium onion, thinly sliced</p>
+				<p>* Salt to taste</p>
+				</ingredients>
+
+				<procedure>
+				<p>Step 1: Wash and clean the mussels, beard removed, boil it in a pan until the shells are open</p>
+				<p>Step 2: Remove the mussels meat then in another sauce pan heat the cooking oil, saute garlic and ginger until fragrant</p>
+				<p>Step 3: Add in the mussels, peppercorn and bay leaf, stir cook for 1 to 2 minutes</p>
+				<p>Step 4: Add in vinegar, soy sauce and red chili</p>
+				<p>Step 5: Let simmer for 5 to 10 minutes or until most of the liquid has evaporated stirring occasionaly</p>
+				<p>Step 6: Garnsih with sliced onions for added flavor</p>
+				<p>Step 7: Season with salt to taste. Serve hot</p>
+				</procedure>
+			</adobong-tahong>
+
+			<chili-crab>
+				<ingredients>
+				<p>* 2 lbs crab, cut in half</p>
+				<p>* 2 tbsp cooking oil</p>
+				<p>* 2 tbsp garlic, minced</p>
+				<p>* 3 tbsp ginger, minced</p>
+				<p>* 1 tbsp crushed red pepper or 3 pieces sliced red chili</p>
+				<p>* 2 tbsp hoisin sauce</p>
+				<p>* 1/2 cup tomato catsup or tomato sauce</p>
+				<p>* 1/4 cup sweet chili sauce</p>
+				<p>* 2 tbsp fish sauce</p>
+				<p>* 1/2 tsp sesame oil</p>
+				<p>* 1/4 cup water</p>
+				<p>* 3 tbsp gereen onions or scallions, thinly sliced crosswise</p>
+				</ingredients>
+
+				<procedure>
+				<p>Step 1: Heat the cooking pot and pour thew cooking oi</p>
+				<p>Step 2: Saute the garlic, ginger, and crushed red pepper</p>
+				<p>Step 3: Add the crab and cook for 3 to 4 minutes</p>
+				<p>Step 4: Put-in the hoisin sauce, tomato catsup, sweet chili sauce, fish sauce, and sesame oil then mix with the other ingredients</p>
+				<p>Step 5: Pour the water and bring to a boil then simmer for 10 minutes or until the sauce is thick</p>
+				<p>Step 6: Garnsih with green onions on top</p>
+				<p>Step 7: Serve hot. Share and Enjoy!</p>
+				</procedure>
+			</chili-crab>
+
+			<butter-shrimp>
+				<ingredients>
+				<p>* 1 kilo shrimps</p>
+				<p>* 3 tomatoes</p>
+				<p>* 2 tablespoons butter</p>
+				<p>* 3 cloves garlic</p>
+				<p>* 1 small onion</p>
+				<p>* Salt and pepper to taste</p>
+				</ingredients>
+
+				<procedure>
+				<p>Step 1: Heat the butter then saute the garlic, tomato and onion until soften then add the shrimp</p>
+				<p>Step 2: Give a good stir to increase the heat, add the salt and pepper to taste then stir until done</p>
+				<p>Step 3: Serve it hot</p>
+				</procedure>
+			</butter-shrimp>
+
+
+			<ginataang-suso>
+				<ingredients>
+				<p>* 1 kilo of snail (suso)</p>
+				<p>* 1 kilo of shredded coconut</p>
+				<p>* 1/2 clove of garlic</p>
+				<p>* 1 big onion, sliced</p>
+				<p>* 2 tbsp. of ginger strips</p>
+				<p>* 2 tbsp. of shrimp paste</p>
+				<p>* 1 medium sized green papaya</p>
+				<p>* Moringa or malunggay leaves</p>
+				<p>* 2 tbsp. of fish sauce or according to your taste</p>
+				<p>* Hot chili</p>
+				</ingredients>
+
+				<procedure>
+				<p>Step 1: To extract the coconut milk, pour about 2 cups of water on a 1 kilo of shredded coconut</p>
+				<p>Step 2: On a caserolr, put coconut milk with the other ingredients such as garlic, ginger, onion, shrimp paste. fish sauce or salt and bring to a boil until the coconut milk become thick</p>
+				<p>Step 3: When boiling, pour the snail (suso) and boil again</p>
+				<p>Step 4: Next step is to add the papaya and moringa/malunggay leaves</p>
+				<p>Step 5: If you like it hot, put few chopped hot chilli. Don't overcooked the papaya.</p>
+				<p>Step 6: Serve hot. Share and Enjoy!</p>
+				</procedure>
+			</ginataang-suso>
+		</Recipes-seafood>
+
+	</menu>
+</PinoyCuisine>
